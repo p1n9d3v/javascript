@@ -131,3 +131,13 @@ getTotal(10, 20, 30);
 # Boolean
 
 - true, false 값을 다루는 Object
+
+# JSON
+
+- 데이터 송수신을 위한 포맷
+- 텍스트 이므로 전송 속도가 빠름
+
+## Methods
+
+- `JSON.parse()` : JSON 문자열을 Object로 변환
+- `JSON.stringify()` : Object를 JSON 문자열로 변환
