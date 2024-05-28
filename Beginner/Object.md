@@ -16,7 +16,7 @@ console.log(typeof book); // object
 
 ## for in
 
-- Object는 for in을 통해 순회할 수 있
+- Object는 for in을 통해 property를 순회할 수 있다.
 - ES3에서는 프로퍼티를 작성한 순서대로 순회하지 않았지만 ES5부터는 작성한 순서대로 순회한다
 
 ```js
