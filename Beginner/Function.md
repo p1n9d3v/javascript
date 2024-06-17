@@ -101,3 +101,22 @@ sports = {
 | `[[TypedArrayByteOffset]]`       | `TypedArray` 객체의 바이트 오프셋입니다.                                                                |
 | `[[TypedArrayByteLength]]`       | `TypedArray` 객체의 바이트 길이입니다.                                                                  |
 | `[[TypedArrayLength]]`           | `TypedArray` 객체의 길이입니다.                                                                         |
+
+# 함수 코드 해석
+
+1. 함수 선언문을 해석
+2. 선언된 변수를 undefined로 초기화
+3. 처음부터 코드를 실행
+
+### 호이스팅
+
+- 변수 및 함수 선언을 해석 단계에서 메모리에 저장
+- 선언된 변수 및 함수 선언되기 전의 코드에서 호출 가능
+
+# Arguments Object
+
+- 함수 인자를 저장하는 객체
+
+```js
+{ 0 : '인자1', 1 : '인자2', 2 : '인자3', length : 3 }
+```
