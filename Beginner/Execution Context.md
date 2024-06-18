@@ -30,7 +30,7 @@
 - DeclarativeEnvironmentRecord: 함수의 인수, 변수, 함수 선언 등을 저장
 - ObjectEnvironmentRecord: 전역 객체(예: 브라우저 환경에서는 window 객체)의 속성을 저장
 
-## outher
+## outer
 
 - 현재 실행 컨텍스트의 부모 Lexical Environment를 가르킴
 - 스코프 체인을 형성하여 외부 Lexical Environment에 접근 가능
